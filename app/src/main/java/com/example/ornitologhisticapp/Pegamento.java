@@ -19,7 +19,7 @@ public class Pegamento extends RecyclerView.Adapter<Pegamento.ViewHolderpegar> {
     @NonNull
     @Override
     public Pegamento.ViewHolderpegar onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View j = LayoutInflater.from(parent.getContext()).inflate(R.layout.avistamiento,null,false)
+        View j = LayoutInflater.from(parent.getContext()).inflate(R.layout.avistamiento,null,false);
         return new ViewHolderpegar(j);
     }
 
